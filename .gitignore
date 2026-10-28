@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build / cache
+.cache/
+.turbo/
+.next/
+out/
+coverage/
+*.log
+
+# Data / state (keep structure, ignore large live snapshots if needed)
+data/live_snapshot.json
+data/*.cache
+
+# Secrets
+*.pem
+*.key
+secrets/
